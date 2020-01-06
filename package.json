@@ -1,0 +1,19 @@
+{
+  "name": "news_thats_fit_to_scrape",
+  "version": "1.0.0",
+  "description": "\"mongoDB and mongoose project\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle67/News_Thats_Fit_to_Scrape.git"
+  },
+  "author": "\"Kyle Daniels\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyle67/News_Thats_Fit_to_Scrape/issues"
+  },
+  "homepage": "https://github.com/kyle67/News_Thats_Fit_to_Scrape#readme"
+}

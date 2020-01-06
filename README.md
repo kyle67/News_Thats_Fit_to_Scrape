@@ -7,6 +7,6 @@
 
 
 
-This web app will let users view and leave comments on the latest news. The app will scrape news from other sites using  Mongoose and Cheerio. Addtional packages used with this app include express-handlebars and axios.
+This web app will let users view and leave comments on the latest news. The app will scrape news from other sites using  Mongoose and Cheerio. Addtional packages used with this app include express, express-handlebars, and axios.
 
   

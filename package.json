@@ -1,7 +1,7 @@
 {
   "name": "news_thats_fit_to_scrape",
   "version": "1.0.0",
-  "description": "\"mongoDB and mongoose project\"",
+  "description": "\"Web scrapping activity\"",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,19 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/kyle67/News_Thats_Fit_to_Scrape.git"
   },
-  "author": "\"Kyle Daniels\"",
+  "author": "Kyle Daniels",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kyle67/News_Thats_Fit_to_Scrape/issues"
   },
   "homepage": "https://github.com/kyle67/News_Thats_Fit_to_Scrape#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.19.1",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
-    "handlebars": "^4.7.1",
-    "mongoose": "^5.8.5",
-    "morgan": "^1.9.1"
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.8.7"
   }
 }

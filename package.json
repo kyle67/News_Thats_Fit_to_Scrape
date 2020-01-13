@@ -1,10 +1,24 @@
 {
   "name": "news_thats_fit_to_scrape",
   "version": "1.0.0",
-  "description": "\"Web scrapping activity\"",
+  "description": "web scrapping activity",
   "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.8.7",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,13 +29,5 @@
   "bugs": {
     "url": "https://github.com/kyle67/News_Thats_Fit_to_Scrape/issues"
   },
-  "homepage": "https://github.com/kyle67/News_Thats_Fit_to_Scrape#readme",
-  "dependencies": {
-    "axios": "^0.19.1",
-    "cheerio": "^1.0.0-rc.3",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mongojs": "^3.1.0",
-    "mongoose": "^5.8.7"
-  }
+  "homepage": "https://github.com/kyle67/News_Thats_Fit_to_Scrape#readme"
 }
